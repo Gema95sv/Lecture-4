@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.Content-Menu {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1a1a1d;
+    background-image: url(argyle.png);
+    margin-bottom: 0px;
+ 
+}
+.Titles {
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-family: "Bahnschrift SemiBold";
+    font-weight: bolder;
+}
+.Titles h1 {
+    color: #f03252;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    padding: 8px 8px;
+    animation: BounceIn 2s;
+}
+.Titles h2 {
+    color: #ffffff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    font-size: 4em;
+    padding: 8px 8px;
+    animation: Opacity 2.0s;
+}
+    @keyframes Opacity {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+.Titles h3 {
+    color: #787878;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    font-size: 1.5em;
+    padding: 8px 8px;
+    animation: BounceIn 2s;
+}
+    @keyframes BounceIn {
+        0% {
+            transform: scale(0);
+            opacity: 0;
+        }
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+.menu {
+    width: 100vw;
+    height: 75px;
+    position: relative;
+    top: 50%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+.menu span {
+    width: 150px;
+    border: 1px solid #f03252;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #f03252;
+    color: white;
+    font-family: "Bahnschrift SemiBold";
+    font-weight: bolder;
+    padding: 10px;
+    margin: 10px;
+    animation: menu-animation 3s ease 0s;
+}
+.menu span:hover {
+    background-color:white ;
+    color: #f03252;
+}
+
+@keyframes menu-animation {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.First-Lecture {
+    width: 100vw;
+    height: 100vh;
+    background:
+        linear-gradient(45deg, #92baac 45px, transparent 45px)64px 64px,
+        linear-gradient(45deg, #92baac 45px, transparent 45px,transparent 91px, #e1ebbd 91px, #e1ebbd 135px, transparent 135px),
+        linear-gradient(-45deg, #92baac 23px, transparent 23px, transparent 68px,#92baac 68px,#92baac 113px,transparent 113px,transparent 158px,#92baac 158px);
+    background-color:#e1ebbd;
+    background-size: 128px 128px;
+}
+.First-Lecture h1 {
+    text-align: center;
+    position: relative;
+    top:50px;
+    font-family: "Arial Black", Gadget, sans-serif;
+font-size: 26px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #3247FF;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;
+}
+#First {
+    width:100vw;
+    background-color: white;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    position: relative;
+    top: 100px;
+}
